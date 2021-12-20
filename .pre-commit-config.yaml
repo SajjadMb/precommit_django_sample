@@ -37,7 +37,7 @@ repos:
         exclude: "[a-zA-Z]*/(migrations)/(.)*"
         args: [
             "--load-plugins=pylint_django",
-            "--django-settings-module=djangoCommitHooks.settings"
+            "--django-settings-module=precommit_django_sample.settings"
         ]
         additional_dependencies: [
           django,
